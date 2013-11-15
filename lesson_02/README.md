@@ -1,0 +1,19 @@
+Outline
+- Review JS 
+  - arrays, objects 
+  - nested collections
+  - functions
+    - callbacks
+    - named vs anonymous
+  - events
+- Node Webserver : web.js
+- Express Replacement : express.js
+  - Responses
+  - Routing
+  - Named parameters  
+- Templates express : express_template.js & /views & ejs.txt
+- Middleware : express_static.js 
+- Code formatting / grouping : express_routes.js & /
+  - function
+  - require
+- Generator walk through : express --help
