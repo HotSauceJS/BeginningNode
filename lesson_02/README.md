@@ -17,3 +17,14 @@ Outline
   - function
   - require
 - Generator walk through : express --help
+
+
+Some of these examples will require the express and ejs modules.
+
+From the same directory as your files, install the modules with:
+
+    npm install express
+
+and 
+
+    npm install ejs
