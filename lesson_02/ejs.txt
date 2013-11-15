@@ -1,0 +1,9 @@
+ejs cheatsheet
+
+<% code %>
+<%= code %> escaped
+<%- code %> unescaped
+<% code -% new line slupring
+
+<% include %> - include another ejs
+<%=: - filter (capitalize, reverse, first, map)
