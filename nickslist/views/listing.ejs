@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form method="POST" action="/listing">
+      <input type="hidden" name="category" value="jobs">
+      <input type="text" name="title" placeholder="title"><br/>
+      <input type="text" name="user" placeholder="email address"><br/>
+      <textarea name="description"></textarea><br/>
+      <input type="submit" value="add listing"/><br/>
+    </form>
+
+  </body>
+</html>
