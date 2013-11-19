@@ -60,7 +60,8 @@ sayHello(sayGoodbye);
 
 // Patterns in Javascript - Events
 
-myEmitter = require("events").EventEmitter()
+var events = require("events")
+var myEmitter = new events.EventEmitter()
 
 // listen for events and trigger inline function
 myEmitter.on('sayHello', function() {
@@ -70,7 +71,7 @@ myEmitter.on('sayHello', function() {
 myEmitter.emit('sayHello');
 
 // listen for events and trigger named function
-myEmitter.on('sayHello', sayHello);
+myEmitter.on('sayHello', sayGoodbye);
 
 myEmitter.emit('sayHello');  // will trigger both emitters above, since now there are two listeners 
 
