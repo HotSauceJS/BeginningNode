@@ -1,6 +1,7 @@
-# Lesson 02
+# Lesson 02 - Express
 
-Express Basics
+Express is a minimal web framework with enough flexibility to let you
+build your applications to your liking.
 
 ## Outline
 
