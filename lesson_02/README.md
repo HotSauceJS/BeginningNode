@@ -35,3 +35,10 @@ Demos can be run by using node and the script name.  Examples
     node express_routes.js
     node express_static.js
     node express_template.js
+
+## Resources
+
+* [NPM](https://npmjs.org)
+* [Express](http://expressjs.com)
+* [EJS](https://github.com/visionmedia/ejs)
+* [Connect](http://www.senchalabs.org/connect/)
