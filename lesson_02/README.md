@@ -5,25 +5,14 @@ build your applications to your liking.
 
 ## Outline
 
-- Review JS 
-  - arrays, objects 
-  - nested collections
-  - functions
-    - callbacks
-    - named vs anonymous
-  - events
-- Node Webserver : web.js
-- Express Replacement : express.js
-  - Responses
-  - Routing
-  - Named parameters  
-- Templates express : express_template.js & /views & ejs.txt
-- Middleware : express_static.js 
-- Code formatting / grouping : express_routes.js & /
-  - function
-  - require
-- Generator walk through : express --help
+All sections are located in the subdirectories. 
 
+1. Review JS :: ./JavaScript_Review
+2. Node Webserver v Express :: ./Node_v_Express
+3. Named Parameters & HTML Templates :: ./Templates
+4. Configuring Middleware :: ./Static
+5. Require & Routes :: ./Routes
+6. Generator walk through :: express --help
 
 ## Required Modules
 
