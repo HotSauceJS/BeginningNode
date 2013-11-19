@@ -1,0 +1,1 @@
+Check out the question "How should I structure my applications" on the [Express FAQ](http://expressjs.com/faq.html).
