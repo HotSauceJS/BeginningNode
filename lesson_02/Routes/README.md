@@ -1,0 +1,1 @@
+Rules require uses to [resolve module locations](http://nodejs.org/api/modules.html#modules_all_together).
