@@ -19,7 +19,7 @@ db.listings.insert(listing)
 db.listings.find();
 
 can also declare ths structures inline
-db.listings.insert({title:"Eames Lounge", description:"Mahogony w/ White Curdory"})
+db.listings.insert({title:"Eames Lounge", description:"Mahogony w/ White Corduroy"})
 db.listings.find();
 
 // now two listings!
