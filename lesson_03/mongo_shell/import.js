@@ -6,4 +6,10 @@ mongoimport --db nickslist --collection listings --file listings.json
 
 // mongo
 use nickslist
-db.find({category:"Jobs"})
+db.listings.find({category:"Jobs"}).count()
+db.listings.find({category:"Jobs"})
+db.listings.find({category:"Jobs"}).pretty()
+
+db.listings.distinct("category");
+
+// more fun http://docs.mongodb.org/manual/reference/method/
