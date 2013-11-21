@@ -6,7 +6,7 @@ var express = require('express')
 
 var app = express();
 
-MongoClient.connect('mongodb://localhost:27017/blog', function(err, db) {
+MongoClient.connect('mongodb://localhost:27017/nickslist', function(err, db) {
     if(err) throw err;
 
     app.set('port', process.env.PORT || 3000);
