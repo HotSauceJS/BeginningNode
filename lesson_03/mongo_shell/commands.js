@@ -46,6 +46,8 @@ db.listings.update({}, {$set: {category: "Events"}}, {multi:true} )
 // lots of other cool things (update operators) $set, $inc, $rename, $push
 // lots of other cool things (find operators) $gt, $in, $exists
 // http://docs.mongodb.org/manual/reference/operator/
+// { upsert: true } http://docs.mongodb.org/manual/reference/method/db.collection.update/#db.collection.update
+
 
 // goodbye everything
 db.listings.remove();
