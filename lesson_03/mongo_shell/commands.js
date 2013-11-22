@@ -11,15 +11,16 @@ db
 db.listings.find();
 // no documents yet
 
+// declare ths structures inline
+db.listings.insert({title:"Eames Lounge", description:"Mahogony w/ White Corduroy"})
+db.listings.find();
+
+// can also declare outside
 var myListing = {};
 myListing.title = "Vintage Bike"
 myListing.description = "70s steel schwinn road bike."
 
 db.listings.insert(listing)
-db.listings.find();
-
-can also declare ths structures inline
-db.listings.insert({title:"Eames Lounge", description:"Mahogony w/ White Corduroy"})
 db.listings.find();
 
 // now two listings!
@@ -47,7 +48,6 @@ db.listings.update({}, {$set: {category: "Events"}}, {multi:true} )
 // lots of other cool things (find operators) $gt, $in, $exists
 // http://docs.mongodb.org/manual/reference/operator/
 // { upsert: true } http://docs.mongodb.org/manual/reference/method/db.collection.update/#db.collection.update
-
 
 // goodbye everything
 db.listings.remove();
