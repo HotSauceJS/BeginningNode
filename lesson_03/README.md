@@ -8,12 +8,12 @@ There are two sections in this module.  First, learning the basics of
 mongo through the shell.  And, second learning how to connect with Node.js
 
 I. Mongo Shell
-  1. [Shell Basics] (Shell_Basics)
-  2. Mongo Commands :: ./Mongo_Commands
-  3. Importing Data :: ./Import_Data
+  1. [Shell Basics](Shell_Basics)
+  2. [Mongo Commands](Mongo_Commands)
+  3. [Importing Data](Import_Data)
 
 II. Mongo & Node
-  1. Node Webserver v Express :: ./Mongo_Node
+  1. [MongoDB & Node](Mongo_Node)
 
 ## Running Mongo
 
