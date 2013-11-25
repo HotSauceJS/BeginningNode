@@ -7,11 +7,11 @@ build your applications to your liking.
 
 All sections are located in the subdirectories. 
 
-1. Review JS :: ./JavaScript_Review
-2. Node Webserver v Express :: ./Node_v_Express
-3. Named Parameters & HTML Templates :: ./Templates
-4. Configuring Middleware :: ./Static
-5. Require & Routes :: ./Routes
+1. [Review JS](JavaScript_Review)
+2. [Node Webserver v Express](Node_v_Express)
+3. [Named Parameters & HTML Templates](Templates)
+4. [Configuring Middleware](Static)
+5. [Require & Routes](Routes)
 6. Generator walk through :: express --help
 
 ## Required Modules
