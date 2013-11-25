@@ -7,7 +7,11 @@
   <body>
     <h1><%= title %></h1>
     <form method="POST" action="/listing">
-      <input type="hidden" name="category" value="jobs">
+      <select name="category">
+        <option value="Events">Events</option>
+        <option value="For Sale">For Sale</option>
+        <option value="Jobs">Jobs</option>
+      </select><br/>
       <input type="text" name="title" placeholder="title"><br/>
       <input type="text" name="user" placeholder="email address"><br/>
       <textarea name="description"></textarea><br/>
