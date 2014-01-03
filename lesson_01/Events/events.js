@@ -1,19 +1,20 @@
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
  
-var greeting = function()
-{
-  console.log('hello world');
+var count = 0;
+
+var increaseCount = function() {
+    console.log('new visitor');
+    count++;
 }
 
-var niceToMeet = function()
-{
-  console.log('nice to meet you');
+var reportCount = function() {
+    console.log('TOTAL COUNT', count);
 }
 
-eventEmitter.on('announce', greeting);
-eventEmitter.on('announce', niceToMeet);
+eventEmitter.on('visit', increaseCount);
+eventEmitter.on('visit', reportCount);
 
 setInterval(function(){
-  eventEmitter.emit('announce');
-}, 2000);
+  eventEmitter.emit('visit');
+}, 1000);
