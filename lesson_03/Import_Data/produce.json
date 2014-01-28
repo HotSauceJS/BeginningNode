@@ -1,0 +1,13 @@
+{item: "Swiss Chard", price: 3.00, season: "Winter"}
+{item: "Radishes", price: 2.00, season: "Winter"}
+{item: "Lettuce", price: 3.00, season: "Winter"}
+{item: "Turnips", price: 2.00, season: "Winter"}
+{item: "Black Berries", price: 3.00, season: "Spring"}
+{item: "Strawberries", price: 4.00, season: "Spring"}
+{item: "Cantaloupe", price: 2.00, season: "Summer"}
+{item: "Cantaloupe", price: 2.00, season: "Summer"}
+{item: "Cucumber", price: 1.00, season: "Summer"}
+{item: "Figs", price: 4.00, season: "Summer"}
+{item: "Chilies", price: 1.00, season: "Summer"}
+{item: "Broccoli", price: 3.00, season: "Fall"}
+{item: "Kale", price: 2.00, season: "Fall"}

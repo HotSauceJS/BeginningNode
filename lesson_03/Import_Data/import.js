@@ -1,15 +1,13 @@
-// files exported w/ 
-mongoexport --db nickslist --collection listings --out listings.json
-
 // import
-mongoimport --db nickslist --collection listings --file listings.json
+mongoimport --db market --collection produce --file produce.json
 
 // mongo
-use nickslist
-db.listings.find({category:"Jobs"}).count()
-db.listings.find({category:"Jobs"})
-db.listings.find({category:"Jobs"}).pretty()
+use market
+db.produce.find({season:"Winter"})
+db.produce.find({season:"Winter"}).count()
+db.produce.distinct("season");
 
-db.listings.distinct("category");
+// export
+mongoexport --db market --collection produce --out produce.json
 
 // more fun http://docs.mongodb.org/manual/reference/method/
