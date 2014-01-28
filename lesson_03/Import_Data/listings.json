@@ -1,4 +1,0 @@
-{ "title" : "Awesome Event", "user" : "rsvp@event.com", "description" : "This event is going to be rad.", "category" : "Events", "_id" : { "$oid" : "528e6b21d94e2e7443000001" } }
-{ "title" : "I got stuff", "user" : "toomuch@gmail.com", "description" : "Take it all away!", "category" : "For Sale", "_id" : { "$oid" : "528e6b33d94e2e7443000002" } }
-{ "title" : "Sr Dev", "user" : "hr@company.co", "description" : "You do stuff like you know what you're doing.", "category" : "Jobs", "_id" : { "$oid" : "528e6b4ad94e2e7443000003" } }
-{ "title" : "Easy Job", "user" : "trash@company.com", "description" : "You do nothing!", "category" : "Jobs", "_id" : { "$oid" : "528e6b64d94e2e7443000004" } }
